@@ -1,0 +1,11 @@
+nav div ul a {
+    color: #212121;
+}
+
+.container {
+    width: 90%;
+}
+
+a.sidenav-trigger > i.material-icons {
+    font-size: 2rem;
+}

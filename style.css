@@ -1,0 +1,72 @@
+/* font-family: 'Cormorant Garamond', serif; */
+
+* {
+    /* border: 1px solid cadetblue;  */
+    color:#000;
+    font-family: 'Cormorant Garamond';
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;  
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.transparentBG {
+    background-color: rgba(0,0,0,0);
+}
+
+header{
+    z-index: 999;
+    padding-bottom: 1rem;
+}
+
+#booking_btn {
+    border-radius: 10px;
+}
+
+#about {
+    font-size: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 12rem;
+    /* padding-left: 8rem;
+    padding-right: 8rem; */
+    align-items: flex-end;
+    text-align: center;
+}
+
+#gallery-images{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+
+#portrait{
+    height: 100vph;
+    width: 100vpw;
+}
+
+
+#new-gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+.aftercare{
+    margin-bottom: 10rem;
+}
+
+#faq_title{
+    margin-bottom: 4rem;
+}
+
+.collapsible{
+    margin-bottom: 20rem;
+}
+
