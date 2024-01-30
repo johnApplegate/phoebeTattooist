@@ -26,7 +26,7 @@ header{
 }
 
 #logo {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 #booking_btn {
@@ -44,8 +44,8 @@ header{
 }
 
 #gallery-images {
-    width: 200px;
-    height: 200px; /* Set the desired height for the images */
+    width: 175px;
+    height: 175px; /* Set the desired height for the images */
     overflow: hidden;
 }
 
@@ -81,3 +81,11 @@ header{
     font-size: 1.5rem;
 }
 
+
+@media screen and (min-width: 600px) {
+    
+    #logo {
+        font-size: 4rem;
+    }
+  
+}
